@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_shape"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_size_20" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信息渠道"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_size_17" />
+
+        <TextView
+            android:id="@+id/tv_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/dp_size_25"
+            android:drawableRight="@drawable/right_arrow_36"
+            android:gravity="center|right"
+            android:paddingBottom="@dimen/dp_size_15"
+            android:paddingLeft="@dimen/dp_size_20"
+            android:paddingRight="@dimen/dp_size_10"
+            android:paddingTop="@dimen/dp_size_15"
+            android:textColor="@color/grey"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/sp_size_13" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/dp_size_20"
+        android:background="#BBBBBB" />
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/custom_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/btn_myInfo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:text="我的信息"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/btn_update_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:text="修改密码"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:layout_marginLeft="@dimen/dp_size_10" >
+
+            <Button
+                android:id="@+id/btn_model"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:text="车型模式"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ToggleButton
+                android:id="@+id/togg_model"
+                android:layout_width="@dimen/dp_size_60"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_butn_toggle"
+                android:textOff=""
+                android:textOn="" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:layout_marginLeft="@dimen/dp_size_10" >
+
+            <Button
+                android:id="@+id/btn_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:text="顾问模式"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ToggleButton
+                android:id="@+id/togg_customer"
+                android:layout_width="@dimen/dp_size_60"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_butn_toggle2"
+                android:textOff=""
+                android:textOn="" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/btn_help_document"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:text="帮助文档"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+        
+        <Button
+            android:id="@+id/btn_safe_exit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:text="安全退出"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grey" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.iris.fragment.ReportActivity" >
+
+    <include layout="@layout/custom_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_helptext_data"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/right_arrow_36"
+            android:gravity="left|center_vertical"
+            android:text="首页"
+            android:textColor="@color/text_people"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/bt_helptext_report"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/right_arrow_36"
+            android:gravity="left|center_vertical"
+            android:text="概览"
+            android:textColor="@color/text_people"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/bt_helptext_funnel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/right_arrow_36"
+            android:gravity="left|center_vertical"
+            android:text="报表"
+            android:textColor="@color/text_people"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <Button
+                android:id="@+id/bt_help_porfit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_size_10"
+                android:layout_marginRight="@dimen/dp_size_10"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_36"
+                android:gravity="left|center_vertical"
+                android:text="监控"
+                android:textColor="@color/text_people"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <Button
+                android:id="@+id/bt_helptext_model"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_size_10"
+                android:layout_marginRight="@dimen/dp_size_10"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_36"
+                android:gravity="left|center_vertical"
+                android:text="诊断"
+                android:textColor="@color/text_people"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <Button
+                android:id="@+id/bt_help_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_size_10"
+                android:layout_marginRight="@dimen/dp_size_10"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_36"
+                android:gravity="left|center_vertical"
+                android:text="设置"
+                android:textColor="@color/text_people"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/bt_help_helpDocument"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:text="名词释义"
+            android:textColor="@color/text_people"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/bt_help_loginOut"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>

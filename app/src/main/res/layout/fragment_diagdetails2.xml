@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/overview_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/home_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="名字"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+    <!-- 55555555555555555555 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_49"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_diagno_star_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/fragment_diagno_adc_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_diagno_adc_start_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/start_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_size_1"
+            android:layout_height="fill_parent"
+            android:background="#ffd6d6d6" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_diagno_end_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_diagno_adc_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_diagno_adc_end_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/end_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 55555555555555555555 结束 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- scrollview的直接子view -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 第一列 -->
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_linner"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <!-- 左半边 -->
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_datas_jiedai_linnder"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:id="@+id/fragment_diadetail_datas_jiedai_linnder_added_image"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/icon_qianke" />
+
+                    <!-- 左半边右边部分 -->
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_datas_jiedai_linner_add_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <!-- 左半边右边部分上部分 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/jiedai_linner_add_right_name"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="接待总数"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_jiedai_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="人"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/jiedai_linner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_jiedai_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 左半边右边部分下面部分 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/jiedai_linner_add_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_jiedai_avg_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="人"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/jiedai_linner_add_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_jiedai_avg_ren"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 左半边结束 -->
+
+
+                <!-- 右半边开始 -->
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_datas_linnder"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:id="@+id/fragment_diadetail_datas_linnder_added_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/icon_qianke" />
+
+                    <!-- 右半边右边部分 -->
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_datas_linner_add_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <!-- 右半边有部分上边 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_add_right_name"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="新增潜客"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="人"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_add_right_newspepolnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 右半边有部分下边 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_add_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_ren2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="人"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_add_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_ren2"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 右半边结束 -->
+            </LinearLayout>
+            <!-- 第一列结束 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <!-- 第二列 -->
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <!-- 左边部分 -->
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_deal_datas_linnder"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:id="@+id/fragment_diadetail_datas_linnder_deal_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/icon_deal" />
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_datas_linner_deal_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_deal_right_name"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="成交率"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_chengjiao_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_deal_right_ratelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_chengjiao_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_deal_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_chengjiao_avg_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_deal_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_chengjiao_avg_ren"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 右边部分 -->
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_deal_profit_linnder"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:id="@+id/fragment_diadetail_datas_linnder_profit_image"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/icon_money" />
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_datas_linner_profit_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_profit_right_name"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="交车数"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_jiaoche_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="台"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_profit_right_Profitnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_jiaoche_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_profit"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_profit_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_jiaoche_avg_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="台"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_profit_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_jiaoche_avg_ren"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 右边结束 -->
+            </LinearLayout>
+            <!-- 第二列结束 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <!-- 第三列 -->
+
+            <LinearLayout
+                
+                android:id="@+id/ll_diakcsl"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <!-- 左边部分 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/kcsl" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="库存数量"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_tai1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="台"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_kcsl"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_tai1"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_tai2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="台"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_kcslpj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_tai2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 右边部分 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/kcpj" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="平均库存天数"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_tian"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="天"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_kcts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_tian"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_profit"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_tian2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="天"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_kctspj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_tian2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 右边结束 -->
+            </LinearLayout>
+            <!-- 第三列 -->
+
+
+            <!-- 第四列 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <!-- 左边部分 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/djb" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="订交比"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dingbi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 右边部分 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+                </LinearLayout>
+                <!-- 右边结束 -->
+            </LinearLayout>
+            <!-- 第四列 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/red" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="详情" />
+            </LinearLayout>
+
+            <!-- 詳情 -->
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_gp2_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_gp2_profit_linnder"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/fragment_diadetail_gp2_linnder_profit_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/icon_gp2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="新车"
+                            android:textSize="11dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_gp2_linner_profit_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp1_linner_profit_right_name"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="GP1"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp1_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_gp1_right_gpnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp1_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp1_linner_profit_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp1_avg_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp1_linner_profit_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp1_avg_ren"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 222222222222222222222222222 -->
+
+                <LinearLayout
+                    android:id="@+id/fragment_diadetail_deal_replacement_linnders"
+                    style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:id="@+id/fragment_diadetail_datas_linner_replacement_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp3_linner_profit_right_name"
+                                android:layout_width="55dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="衍生总毛利"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp3_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_datas_linner_gp3_right_gpnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp3_ren"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp3_linner_profit_right_names"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="团队平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp3_avg_ren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/fragment_diadetail_gp3_linner_profit_right_averagelnumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp3_avg_ren"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 单车gp1 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/icon_gp2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="新车"
+                            android:textSize="11dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="GP1%"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_bfgp1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b1"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_o"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp1pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 222222222222222222222222222 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="55dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="单车GP1"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp1y1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp1y1"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_f"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp1y2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp1pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp1y2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 单车gp1 -->
+
+
+            <!-- 单车gp2 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:orientation="vertical" >
+
+                        <!--
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/icon_gp2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="新车"
+                            android:textSize="11dp" />
+                        -->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="GP2%"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_bfgp2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b3"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_t"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp2pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b4"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 222222222222222222222222222 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="55dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="单车GP2"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp2y1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp2y1"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_five"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp2y2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp2pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp2y2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 单车gp2 -->
+
+
+            <!-- 单车gp3 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:orientation="vertical" >
+
+                        <!--
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/icon_gp2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="新车"
+                            android:textSize="11dp" />
+                        -->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="GP3%"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_bfgp3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b5"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_three"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_b6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="%"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp3pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_b6"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 222222222222222222222222222 -->
+
+                <LinearLayout style="@style/LinearLayoutStyle1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:layout_width="55dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="单车GP3"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp3y1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp3y1"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/text_jiedai"
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+
+                        <!-- 团队平均 -->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_s"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:text="车型平均"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/tv_gp3y2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center"
+                                android:paddingRight="15dp"
+                                android:text="元"
+                                android:textColor="@color/number_ren_text"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:id="@+id/tv_dcgp3pj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_toLeftOf="@+id/tv_gp3y2"
+                                android:gravity="center"
+                                android:text=""
+                                android:textSize="12dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 单车gp3 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_Fine_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_Fine_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_carloan_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_carloan_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_insurance_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_insurance_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_extended_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_extended_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+
+            <!-- 增加 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_shangPai_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_shangPai_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+
+            <!-- 置换 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diagdetail_zhiHuan_linners"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_linner"
+                android:orientation="horizontal" >
+
+                <include
+                    android:id="@+id/fragment_diagdetail_zhiHuan_incl"
+                    layout="@layout/diagdetail_list_linner2" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- scrollview的子view结束 -->
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,592 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_shezhi" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="经销商名字"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent" 
+            android:layout_width="60dp">
+            
+           <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_meg" />
+           
+           <TextView
+               android:id="@+id/tv_num"              
+               android:textColor="@color/red"
+               android:gravity="center"
+               android:layout_marginTop="10dp" 
+               android:layout_marginRight="5dp"
+               android:textSize="8sp"
+               android:background="@drawable/gray_yuan"
+               android:layout_alignParentRight="true"
+               android:text="99"
+               android:layout_height="12dp"
+               android:layout_width="12dp"
+               
+               />
+           
+            
+        </RelativeLayout>
+       
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/iconfont_xiala"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="2017/02/03"
+            android:textSize="14sp" />
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="14sp" />
+        
+        <TextView
+            android:id="@+id/tv_end"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/iconfont_xiala"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="2018/03/09"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/bg_linner" />
+    
+   <!-- 时间选择下面的部分 -->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <!-- 销售 -->
+        <LinearLayout
+            android:id="@+id/ll_xs"
+            style="@style/ll_sepmian"
+            android:background="@drawable/otherbg" >
+            
+            <!-- 上半部分 -->
+            <LinearLayout 
+                style="@style/ll_sepll"  >
+                 <!-- 总交车数 -->
+                <LinearLayout
+                    android:id="@+id/ll_kpi"
+                    android:gravity="center_horizontal"            
+                    style="@style/ll_sepsec"                                        
+                    > 
+                   <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/icon_wh" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="销售"
+                        android:textColor="#333333"
+                        android:textSize="14sp" />
+                    
+                    </LinearLayout>
+                                
+                <!-- 成交数 -->
+                <LinearLayout 
+                     style="@style/ll_sepsec"     
+                    >
+                     <TextView 
+                       android:textSize="14sp"
+                       android:text="成交数"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+             
+                </LinearLayout>
+           
+                <!--销售综合毛利  -->
+                <LinearLayout 
+                    style="@style/ll_sepsec"     
+                    >
+                   
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_cjs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="台"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:id="@+id/tv_time"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                       android:text=""
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+                </LinearLayout>
+            </LinearLayout>
+            
+             <!-- 下半部分 -->
+             <LinearLayout 
+               style="@style/ll_sepll" >
+               
+                 <!-- 总交车数 -->
+                <LinearLayout
+                    style="@style/ll_sepsec"                                        
+                    >
+                    <TextView 
+                       android:textSize="14sp"
+                       android:text="总交车数"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_zjcs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="台"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:id="@+id/tv_time1"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                       android:text=""
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+                    
+                </LinearLayout>
+                            
+                <!-- 销售综合收入 -->
+                <LinearLayout 
+                     style="@style/ll_sepsec"     
+                    >
+                     <TextView 
+                       android:textSize="14sp"
+                       android:text="销售综合收入"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_xszhsr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="万元"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:id="@+id/tv_time2"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                       android:text=""
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+                </LinearLayout>
+                
+                
+               
+                <!--销售综合毛利  -->
+                <LinearLayout 
+                    style="@style/ll_sepsec"     
+                    >
+                     <TextView 
+                       android:textSize="14sp"
+                       android:text="销售综合毛利"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_xszhml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="万元"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    
+                    <TextView 
+                        android:id="@+id/tv_time3"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                       android:text=""
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                                               
+                       />
+                </LinearLayout>
+               
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 售后 -->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/ll_sh"
+            style="@style/ll_sepmian"
+            android:background="@drawable/otherbg_sale" >
+               上半部分
+            <LinearLayout
+                style="@style/ll_sepll"  >
+                 <!-- 总交车数 -->
+                <LinearLayout
+                    android:id="@+id/ll_kpish"
+                    android:gravity="center_horizontal"
+                    style="@style/ll_sepsec"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/icon_wh" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="售后"
+                        android:textColor="#333333"
+                        android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                 成交数
+                <LinearLayout
+                     style="@style/ll_sepsec"
+                    >
+                     <TextView
+                       android:textSize="14sp"
+                       android:text="维修台次"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+                </LinearLayout>
+
+                销售综合毛利
+                <LinearLayout
+                    style="@style/ll_sepsec"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_wxtc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="次"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_runtime"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                       android:text="更新于2017-03-09"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+                </LinearLayout>
+            </LinearLayout>
+            
+              下半部分
+             <LinearLayout
+               style="@style/ll_sepll" >
+
+                 <!-- 总交车数 -->
+                <LinearLayout
+                    style="@style/ll_sepsec"
+                    >
+                    <TextView
+                       android:textSize="14sp"
+                       android:text="单车产值"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+                    <LinearLayout
+                         android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_dccz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="元"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_runtime1"
+                         android:layout_marginTop="5dp"
+                        android:textSize="10sp"
+                       android:text="更新于2017-03-09"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+                </LinearLayout>
+
+
+                <!-- 销售综合收入 -->
+                <LinearLayout
+                     style="@style/ll_sepsec"
+                    >
+                     <TextView
+                       android:textSize="14sp"
+                       android:text="售后综合收入"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+                    <LinearLayout
+                         android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_zhsr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="万元"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_runtime2"
+                        android:layout_marginTop="5dp"
+                        android:textSize="10sp"
+                       android:text="更新于2017-03-09"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+                </LinearLayout>
+
+
+
+                <!--销售综合毛利  -->
+                <LinearLayout
+                    style="@style/ll_sepsec"
+                    >
+                     <TextView
+                       android:textSize="14sp"
+                       android:text="售后综合毛利"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_zhml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/title_back_color"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="万元"
+                            android:textColor="@color/grey"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_runtime3"
+                        android:layout_marginTop="5dp"
+                        android:textSize="10sp"
+                        android:text="更新于2017-03-09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="敬请期待"
+                android:textSize="17sp" />
+        </LinearLayout>
+        
+        <!-- 其他 -->
+       <LinearLayout
+            style="@style/ll_sepmian"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/otherbg_user" >
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:text="二手车"-->
+                <!--android:textColor="#333333"-->
+                <!--android:textSize="14sp" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="敬请期待"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

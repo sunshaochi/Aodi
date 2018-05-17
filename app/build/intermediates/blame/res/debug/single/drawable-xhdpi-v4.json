@@ -1,0 +1,802 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_funnel_img.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_funnel_img.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_new_car.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_new_car.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_tab_title_background.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_tab_title_background.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help4.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help4.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_edit.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\login_edit.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_xin_bao.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_xin_bao.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_week.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_week.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_normal.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\search_normal.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_report.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_report.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\butn_close.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\butn_close.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\confirm.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\confirm.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_cars.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_cars.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_pro.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_pro.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help6.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help6.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_wh.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_wh.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\next.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\next.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_xinbao.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_xinbao.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dot_grey.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\dot_grey.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_zhi_huan.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_zhi_huan.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kpiname.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kpiname.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\man.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\man.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_shezhi.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_shezhi.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kcpj.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kcpj.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_square.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_square.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diagnose_jiaoche.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\diagnose_jiaoche.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iconfont_xiala.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\iconfont_xiala.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help2.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help2.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webwxgetmsgims.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\webwxgetmsgims.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dot_white.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\dot_white.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\reenter_icon.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\reenter_icon.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shbb.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shbb.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\wenhao.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\wenhao.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_warming.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_warming.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diagnose_zhihuan.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\diagnose_zhihuan.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\i_view_bg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\i_view_bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_lnsurance.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_lnsurance.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\otherbg_sale.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\otherbg_sale.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_car_model.jpg",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_car_model.jpg"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\web.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\web.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\otherbg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\otherbg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\yes.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\yes.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diagnose_shangpai.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\diagnose_shangpai.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_yy_xx.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_yy_xx.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_unchecked_two.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_unchecked_two.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help6.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help6.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shsy.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shsy.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shjk.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shjk.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_rank_shang.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_rank_shang.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_data.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_data.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_yunying.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_yunying.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_other.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_other.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_data.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_data.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_btn.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\login_btn.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\car.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\car.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_search.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_search.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_yan_bao.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_yan_bao.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_new_car.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_new_car.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emotionstore_progresscancelbtn.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_week.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_week.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\progress.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\progress.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_up.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_up.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_yl.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_yl.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_boutique.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_boutique.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webs.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\webs.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_replacement.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_replacement.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_pressed.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\search_pressed.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\redup.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\redup.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help1.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help1.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shzd.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shzd.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_shezhi_logo.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_shezhi_logo.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_funnel.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_funnel.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\last.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\last.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_maoli.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_maoli.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_funnel.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_funnel.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\butn_open.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\butn_open.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\show_head_toast_bg.9.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_new_car.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_new_car.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\profit_log.jpg",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\profit_log.jpg"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edit.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\edit.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\otherbg_user.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\otherbg_user.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_bg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_checked.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\upred.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\upred.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shset.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shset.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help5.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help5.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iconfont_right.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\iconfont_right.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_back.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_back.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_deal.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_deal.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_bar_icon_normal.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\search_bar_icon_normal.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\spbg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\spbg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_unchecked.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help3.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help3.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\i_view.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\i_view.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_save.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_save.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kuts.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kuts.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog_cancel.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\dialog_cancel.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\save.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\save.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help1.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help1.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shgl.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\shgl.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_jing_pin.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_jing_pin.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webwxgetmsgimg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\webwxgetmsgimg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_carloan.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_carloan.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kcsl.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kcsl.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_checked_two.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\checkbox_checked_two.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_gp2.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_gp2.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_gaikuang.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_gaikuang.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_rank_xia.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_rank_xia.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_login_user.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_login_user.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_qianke.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_qianke.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cancel.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\cancel.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\upgreen.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\upgreen.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\current.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\current.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help5.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help5.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_money.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_money.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\group_divider.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\group_divider.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_extendedwarranty.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_extendedwarranty.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_meg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_meg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webwxgetmsgim.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\webwxgetmsgim.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help3.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help3.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_consultant.jpg",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_consultant.jpg"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_login_psw.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_login_psw.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\newbg.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\newbg.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_yingli.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_yingli.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_yy_mb.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_yy_mb.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iconfont_left.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\iconfont_left.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_shang_pai.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_shang_pai.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cancels.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\cancels.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vacation.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vacation.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\greendown.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\greendown.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\submit.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\submit.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_money.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_money.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\djb.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\djb.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_kc_sc.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_kc_sc.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_chengjiao.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_chengjiao.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\i_view_brand.jpg",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\i_view_brand.jpg"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\help2.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\help2.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diagnose_jiedai.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\diagnose_jiedai.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kpivaule.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kpivaule.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overview_car_loan.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\overview_car_loan.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_report.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\default_report.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\down.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\down.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_user.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\btn_user.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\kunum.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\kunum.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ilog_help4.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\ilog_help4.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_arrow_36.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow_36.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_home_shouru.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\icon_home_shouru.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\i_view_button_login.png",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-xhdpi\\i_view_button_login.png"
+    }
+]

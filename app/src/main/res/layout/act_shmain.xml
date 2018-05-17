@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/any_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:background="@drawable/ilog_tab_title_background"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_sybg"
+            android:button="@null"/>
+
+        <RadioButton
+             android:checked="true"
+            android:id="@+id/rb_report"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_glbg"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/rb_kpi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_bbbg"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_funnel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_jkbg"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/select_zdbg"
+            android:button="@null" />
+    </RadioGroup>
+
+</LinearLayout>

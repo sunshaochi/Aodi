@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_channel_layout" 
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/item_channel_effect"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_size_35"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_size_5"
+        android:text="@string/channel_effect"
+        android:textColor="@color/text_people"
+        android:textSize="@dimen/sp_size_10" />
+
+    <TextView
+        android:id="@+id/item_channel_target"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/channel_target"
+        android:textColor="@color/text_people"
+        android:textSize="@dimen/sp_size_10" />
+
+    <TextView
+        android:id="@+id/item_channel_practical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/channel_practical"
+        android:textColor="@color/text_people"
+        android:textSize="@dimen/sp_size_10" />
+
+    <TextView
+        android:id="@+id/item_channel_achieve_progress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/channel_achieve_progress"
+        android:textColor="@color/text_people"
+        android:textSize="@dimen/sp_size_10" />
+
+</LinearLayout>

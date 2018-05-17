@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="date">
+
+        <!--
+        <item>成交数 </item>
+        <item>总交车数</item>
+        <item>销售总收入</item>
+        <item>销售总毛利</item>
+        <item>GP1</item>
+        <item>GP2</item>
+        <item>新增潜客</item>
+        <item>首次进店试乘试驾</item>
+        <item>首次进店试乘试驾率</item>
+        <item>展厅首次进店试乘试驾率</item>
+        <item>ADC首次进店试乘试驾率</item>
+        <item>报价数</item>
+        <item>报价率</item>
+        <item>成交数</item>
+        <item>成交率</item>
+        <item>展厅成交率</item>
+        <item>ADC成交率</item>
+        <item>再次进店</item>
+        <item>当月客户(当月客户再次进店)</item>
+        <item>活跃客户(活跃客户再次进店)</item>
+        <item>休眠客户(休眠客户再次进店)</item>
+        <item>再次进店率</item>
+        <item>大客户数量</item>
+        <item>首次进店成交数</item>
+        <item>接待总数</item>
+        <item>新车置换率</item>
+        <item>新车车贷渗透率</item>
+        <item>新保渗透率</item>
+        <item>新车延修保险渗透率</item>
+        <item>精品加装率</item>
+        <item>平均单车精品毛利</item>
+        <item>平均单车车贷毛利</item>
+        <item>衍生业务平均单车盈利</item>
+        <item>利润贡献</item>
+        -->
+
+        <item>成交数 </item>
+        <item>总交车数</item>
+        <item>销售综合收入</item>
+        <item>销售综合毛利</item>
+        <item>新增潜客</item>
+        <item>首次进店试乘试驾</item>
+        <item>首次进店试乘试驾率</item>
+        <item>首次进店报价数</item>
+        <item>首次进店报价率</item>
+        <item>成交率</item>
+        <item>再次进店</item>
+        <item>当月再次(当月客户再次进店)</item>
+        <item>活跃再次(活跃客户再次进店)</item>
+        <item>休眠再次(休眠客户再次进店)</item>
+        <item>再次进店率</item>
+        <item>总交车数</item>
+        <item>首次进店成交数</item>
+        <item>接待总数</item>
+        <item>新车置换率</item>
+        <item>GP1</item>
+        <item>GP1%</item>
+        <item>GP2</item>
+        <item>新车相关返利</item>
+        <item>GP2%</item>
+        <item>GP3</item>
+        <item>GP3%</item>
+        <item>精品加装率</item>
+        <item>平均单车精品毛利</item>
+        <item>单车GP3</item>
+        <item>库存数量</item>
+        <item>库存天数</item>
+        <item>在途数量</item>
+        <item>在库数量</item>
+        <item>在途已订</item>
+        <item>在库已订</item>
+        <item>当月订单交车</item>
+        <item>以往订单交车</item>
+        <item>定交比</item>
+    </string-array>
+    <string-array name="letter">
+
+        <!--
+        <item>当期新增订单量</item>
+        <item>当期交车总数</item>
+        <item>当期开票价格总额</item>
+        <item>销售总毛利=GP2+衍生业务毛利</item>
+        <item>GP1=销售收入-采购成本=开票价格-采购成本</item>
+        <item>GP2=GP1-资金成本+验车上牌费用+厂家返利+大客户返利-赠送成本</item>
+        <item>当期新增潜在客户量</item>
+        <item>当期首次进店试乘试驾量</item>
+        <item>当期首次进店试乘试驾量/ 当期新增潜在客户量*100%</item>
+        <item>当期展厅首次进店展厅试乘试驾量/ 当期新增展厅潜在客户量*100%</item>
+        <item>当期ADC首次进店试乘试驾量/ 当期新增ADC 潜在客户量*100%</item>
+        <item>当期报价量</item>
+        <item>报价率=当期报价量/当期新增潜客数*100%</item>
+        <item>当期新增订单量</item>
+        <item>当期新增订单量/ 当期新增潜在客户量*100%</item>
+        <item>当期新增展厅订单量/ 当期新增展厅潜在客户量*100%</item>
+        <item>当期新增ADC 订单量/ 当期新增ADC 潜在客户量*100%</item>
+        <item>当期再次进店潜在客户量（再次进店=当月客户+活跃客户+休眠客户）</item>
+        <item>当期新增潜客再次进店数量</item>
+        <item>N-3到N-1月新增潜客但未成交的客户在N月再次进店数量</item>
+        <item>N-6到N-4月新增潜客但未成交的客户在N月再次进店数量</item>
+        <item>当期再次进店客户量/（当期接待总数- 当期首次进店成交客户量）*100%</item>
+        <item>大客户数量+批售数量</item>
+        <item>当期首次进店成交客户量</item>
+        <item>接待总数=新增潜客+再次进店</item>
+        <item>当期新车置换量/ 当期总交车数*100%</item>
+        <item>新车车贷销售量 / 当期总交车数*100%</item>
+        <item>新保量/ 当期总交车数*100%</item>
+        <item>新车延修保险量/ 当期总交车数*100%</item>
+        <item>当期精品加装量/ 当期总交车数*100%</item>
+        <item>平均单车精品毛利=当期精品总毛利/当期精品加装量</item>
+        <item>平均单车车贷毛利=当期车贷总毛利/当期车贷销售数</item>
+        <item>衍生业务平均单车盈利=衍生业务毛利总和/总交车数</item>
+        <item>GP2+衍生业务毛利总和</item>
+        -->
+
+        <item>当期新增订单量 </item>
+        <item>当期交车总数</item>
+        <item>当期开票价格总额+衍生业务收入总计</item>
+        <item>进销差(GP1)+销售返利总计+衍生业务毛利总计</item>
+        <item>当期新增潜在客户量</item>
+        <item>当期首次进店试乘试驾量</item>
+        <item>当期首次进店试乘试驾量/ 当期新增潜在客户量*100%</item>
+        <item>当期首次进店报价量</item>
+        <item>当期首次进店报价量/当期新增潜客数*100%</item>
+        <item>当期新增订单量/ 当期新增潜在客户量*100%</item>
+        <item>当期再次进店潜在客户量</item>
+        <item>当期新增潜客再次进店数量</item>
+        <item>N-3到N-1月进店客户（新增+再次）,在N月再次进店数量</item>
+        <item>N-4月以上进店客户（新增+再次），N-3到N-1未进店，在N月再次进店数量</item>
+        <item>当期再次进店潜在客户量/（当期进店潜在客户量- 当期首次进店成交客户量）*100%</item>
+        <item>展厅+ADC+大客户+车展</item>
+        <item>当期首次进店客户订单量</item>
+        <item>新增潜客+再次进店</item>
+        <item>当期新车置换量/ 当期总交车数*100%</item>
+        <item>新车销售价格-采购发票价格</item>
+        <item>GP1/新车销售收入*100%</item>
+        <item>GP1+新车相关返利+二手车置换返利</item>
+        <item>除包含Aak支持、STD支持等新车相关返利外，也包含大用户返利、特殊置换返利、新车购置税补贴等</item>
+        <item>GP2/新车销售收入*100%</item>
+        <item>GP2+衍生业务毛利</item>
+        <item>GP3/（新车销售收入+衍生业务收入）*100%</item>
+        <item>当期精品加装台次/ 当期总交车数*100%</item>
+        <item>当期精品总毛利/当期精品加装台次</item>
+        <item>衍生业务毛利总和/总交车数</item>
+        <item>已完成采购但尚未交车的数量（含在途和在库数量）</item>
+        <item>交车日期-采购日期（如尚未交车，则是当前日期-采购日期）</item>
+        <item>已完成采购但尚未入库的数量</item>
+        <item>已经入库但尚未交车的数量</item>
+        <item>在途车辆中已生成订单的数量</item>
+        <item>在库车辆中已生成订单的数量</item>
+        <item>交车日期为当前月份的车辆中，订单日期为同一月份的数量</item>
+        <item>交车日期为当前月份的车辆中，订单日期为非同月份的数量</item>
+        <item>订单数量/交车数量</item>
+    </string-array>
+    
+    <string-array name="shdate">
+        <item>维修台次 </item>
+        <item>单车产值</item>
+        <item>售后综合收入</item>
+        <item>售后综合毛利</item>
+        <item>有效保有量</item>
+        <item>售后保有量</item>
+        <item>年维修台次</item>
+        <item>年进厂用户量</item>
+        <item>6个月内用户数</item>
+        <item>7-9个月用户数</item>
+        <item>10-12个月用户数</item>
+        <item>1-3年内用户数</item>
+        <item>3年以上用户数</item>
+        <item>厂家付费收入</item>
+        <item>用户付费收入</item>
+        <item>其他收入</item>
+        <item>用户付费毛利</item>
+        <item>厂家付费毛利</item>
+        <item>其他毛利</item>
+        <item>毛利率</item>
+        <item>自售数</item>
+        <item>自售占比</item>
+        <item>质保内数</item>
+        <item>质保内占比</item>
+        <item>本店投保</item>
+        <item>本店投保占比</item>
+        <item>收入</item>
+        <item>毛利</item>
+        <item>单车收入（单车产值）</item>
+        <item>工时收入</item>
+        <item>备件收入</item>
+        <item>收入占比</item>
+        <item>毛利占比</item>
+        <item>业务台次</item>
+        <item>精品附件渗透率</item>
+        <item>平均客单件</item>
+        <item>续保毛利</item>
+        <item>延保毛利</item>
+        <item>售后总收入</item>
+        <item>售后总毛利</item>
+        <item>售后毛利率</item>
+        <item>维修工时收入</item>
+        <item>维修备件收入</item>
+        <item>工料比</item>
+        <item>备件单车收入</item>
+        <item>维修收入</item>
+        <item>维修毛利率</item>
+        <item>平均单车收入</item>
+        <item>精品附件收入</item>
+        <item>精品附件毛利</item>
+        <item>续保台次</item>
+        <item>延保台次</item>
+    </string-array>
+    <string-array name="shletter">
+        <item>按日去重的进厂车辆数</item>
+        <item>维修收入除以维修台次</item>
+        <item>售后主营+精品附件+续保延保的收入合计</item>
+        <item>售后主营+精品附件+续保延保的毛利合计</item>
+        <item>过去12个月内有进厂记录的车辆数</item>
+        <item>售后有用户档案的车辆数</item>
+        <item>一年内进厂维修的台次数</item>
+        <item>过去12个月内有进厂记录的车辆数</item>
+        <item>某月内，进厂间隔为6个月内的用户数</item>
+        <item>某月内，进厂间隔为7-9个月的用户数</item>
+        <item>某月内，进厂间隔为10-12个月内的用户数</item>
+        <item>某月内，进厂间隔为1-3年的用户数</item>
+        <item>某月内，进厂间隔为3年以上的用户数</item>
+        <item>首保收入+索赔收入</item>
+        <item>保养收入+小修收入+大修收入+钣喷收入</item>
+        <item>精品附件收入+续保延保手续费+备件直销收入</item>
+        <item>保养毛利+小修毛利+大修毛利+钣喷毛利</item>
+        <item>首保毛利+索赔毛利</item>
+        <item>精品附件毛利+续保延保毛利+备件直销毛利</item>
+        <item>毛利占收入的百分比</item>
+        <item>某服务顾问接待用户中，自店销售的用户数</item>
+        <item>某服务顾问接待用户中，自店销售的用户数，占其接待用户总数的百分比</item>
+        <item>某服务顾问接待用户中，在质保期内的用户数，</item>
+        <item>某服务顾问接待用户中，在质保期内的用户数，占其接待用户总数的百分比</item>
+        <item>某服务顾问接待用户中，在本店续保的用户数</item>
+        <item>某服务顾问接待用户中，在本店续保的用户数，占其接待用户总数的百分比</item>
+        <item>某服务顾问的维修收入合计</item>
+        <item>某服务顾问的维修毛利合计</item>
+        <item>某服务顾问的维修单车收入（单车产值）合计</item>
+        <item>某服务顾问的维修工时收入合计</item>
+        <item>某服务顾问的维修备件收入合计</item>
+        <item>某服务顾问的维修收入占比合计</item>
+        <item>某服务顾问的维修毛利占比合计</item>
+        <item>某服务顾问精品附件销售业务的台次</item>
+        <item>某服务顾问精品附件销售台次占其维修台次的百分比</item>
+        <item>某服务顾问精品附件销售的单车收入</item>
+        <item>某服务顾问的续保毛利合计</item>
+        <item>某服务顾问的延保毛利合计</item>
+        <item>主营收入+精品附件收入+延保续保手续费</item>
+        <item>主营毛利+精品附件毛利+续保延保毛利</item>
+        <item>毛利占收入的百分比</item>
+        <item>保养+小修+大修+钣喷维修工时收入</item>
+        <item>保养+小修+大修+钣喷维修备件收入</item>
+        <item>工时与备件收入的比值</item>
+        <item>每维修台次的备件消费金额</item>
+        <item>保养+小修+大修+钣喷维修收入</item>
+        <item>毛利占收入的百分比</item>
+        <item>每维修台次的消费金额</item>
+        <item>精品附件销售的收入合计</item>
+        <item>精品附件销售的毛利合计</item>
+        <item>发生续保业务的车辆数</item>
+        <item>发生延保业务的车辆数</item>
+    </string-array>
+
+</resources>

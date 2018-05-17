@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_gp2_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_gp2_profit_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+			<LinearLayout 
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/fragment_diadetail_gp2_linnder_profit_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                 />
+            <TextView 
+                android:id="@+id/datas_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="新车"
+                android:textSize="11dp"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_gp2_linner_profit_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_gp2_linner_profit_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="GP2"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_gp2_right_newspepolnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_gp2_linner_profit_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_gp2_linner_profit_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/fragment_diadetail_deal_replacement_linnders"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="26.5dp"
+            android:orientation="horizontal" >
+         
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_linner_replacement_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_replacement_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="单车毛利"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_replacement_right_newspepolnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_replacement_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_replacement_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

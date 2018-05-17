@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_49"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_star_time_linner"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_size_49"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_report_fine_stardata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="2016-09-10"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_starname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="开始日期"
+                android:textColor="@color/text_people"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/iconfont_xiala" />
+
+        <View
+            android:layout_width="@+dimen/dp_size_1"
+            android:layout_height="fill_parent"
+            android:background="#ffd6d6d6" />
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_end_time_linner"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_size_49"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_report_fine_enddata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="2016-09-10"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_report_carlon_enddata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="结束日期"
+                android:textColor="@color/text_people"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/iconfont_xiala" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@+color/grey" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="@color/number_ren_text"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_first_column_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_first_column_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_reposhow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="盈利表现"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_first_column_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_awy_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="总交车数"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="精品"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_text_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="销售数"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_infiltration_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_infiltration_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <!--
+                 <TextView
+                android:id="@+id/fragment_report_fine_extended_infiltration_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="精品"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+            -->
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_infiltration_text_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="加装率"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_infiltration_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_income_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_income_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_income_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="精品"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_income_text_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="总毛利"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_income_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_gross_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_gross_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_gross_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="毛利率"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_gross_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_carlon_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_carlon_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_carlon_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="单车"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_carlon_text_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="精品毛利"
+                android:textColor="@+color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_carlon_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/plv_jp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:background="#ffd6d6d6" />
+
+    <ListView
+        android:id="@+id/fragment_report_fine_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

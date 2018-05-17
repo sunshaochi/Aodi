@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/overview_top_layout" />
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        
+<!-- 最外面的LinearLayout，也就是ScrollView的直接LinearLayout-->
+       <LinearLayout 
+           	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical">
+        
+           
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@color/white"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:drawableLeft="@drawable/overview_new_car"
+		            android:layout_marginTop="15dp"
+		            android:layout_marginBottom="5dp"
+		            android:layout_gravity="center_horizontal"
+		            android:text="@string/new_car" />
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+        			android:layout_height="@dimen/dp_size_1"
+        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical" >
+		
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" 
+		                >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP1"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp1"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP1%"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp1_percent"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP2"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp2"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP2%"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_11" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp2_percent"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            
+		            <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		            
+		            <!-- 新增 -->
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP3"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp3"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="GP3%"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_11" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gp3_percent"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		            
+		        </LinearLayout>
+		    </LinearLayout>
+		
+		    <!-- 精品 -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@color/white"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_jing_pin"
+		            android:text="@string/essence" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical" >
+		
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/total_revenue"
+		                    android:textColor="@color/text_average"
+		                    android:layout_marginLeft="24dp"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_total_revenue"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/jiazhuang_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_gross_margin"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/gross_margin"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_jiazhuang_rate"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_rate"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		            
+		        </LinearLayout>
+		    </LinearLayout>
+	
+		    <!--  车贷-->	
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_car_loan"
+		            android:text="@string/car_loan" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		                android:gravity="center"
+		            android:orientation="horizontal" >
+		<!--车贷：总毛利  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_60"
+		                android:layout_height="wrap_content"
+		                android:text="@string/total_revenue"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" 
+		                android:layout_marginLeft="24dp"/>
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_procedure_fee"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="@dimen/dp_size_10"
+		                android:layout_marginStart="@dimen/dp_size_10"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		<!--车贷：渗透率  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_45"
+		                android:layout_height="wrap_content"
+		                android:text="@string/permeability"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" />
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_car_loan_permeability"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginEnd="@dimen/dp_size_10"
+		                android:layout_marginRight="24dp"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		        </LinearLayout>
+		        
+		        
+		        <!--车贷新增 ：总毛利 -->
+		        <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/gross_margin"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_chedai_maoli"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_chedai_maolilv"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		          <!--车贷新增 ：总毛利 -->
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		        
+		    </LinearLayout>
+		   
+		     
+		     <!--  新保:-->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_xin_bao"
+		            android:text="@string/new_insurance" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		                android:gravity="center"
+		            android:orientation="horizontal" >
+		<!--新保：总收入  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_60"
+		                android:layout_height="wrap_content"
+		                android:text="@string/total_revenue"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" 
+		                android:layout_marginLeft="24dp"/>
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_new_insurance_income"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="@dimen/dp_size_10"
+		                android:layout_marginStart="@dimen/dp_size_10"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		<!--新保：渗透率  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_45"
+		                android:layout_height="wrap_content"
+		                android:text="@string/permeability"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" />
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_new_insurance_permeability"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginEnd="@dimen/dp_size_10"
+		                android:layout_marginRight="24dp"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		        </LinearLayout>
+		        
+		        
+		        <!--新保新增 ：总毛利 -->
+		        <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/gross_margin"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_xinbao_maoli"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_xinbao_maolilv"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		          <!--新保新增 ：总毛利 -->
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		        
+		    </LinearLayout>
+		    
+		    
+		    
+		    <!--延保  -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_yan_bao"
+		            android:text="@string/extended_warranty" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		                android:gravity="center"
+		            android:orientation="horizontal" >
+		<!--延保：总收入  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_60"
+		                android:layout_height="wrap_content"
+		                android:text="@string/total_revenue"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" 
+		                android:layout_marginLeft="24dp"/>
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_extendedwarranty_income"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="@dimen/dp_size_10"
+		                android:layout_marginStart="@dimen/dp_size_10"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		<!--延保：渗透率  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_45"
+		                android:layout_height="wrap_content"
+		                android:text="@string/permeability"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" />
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_extendedwarranty_permeability"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginEnd="@dimen/dp_size_10"
+		                android:layout_marginRight="24dp"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		        </LinearLayout>
+		        
+		        
+		        <!--延保新增 ：总毛利 -->
+		        <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/gross_margin"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_yanbao_maoli"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_yanbao_maolilv"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		          <!--延保新增 ：总毛利 -->
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		        
+		    </LinearLayout>
+		     
+		    
+		    
+		    <!--上牌  -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_shang_pai"
+		            android:text="@string/shang_pai" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		                android:gravity="center"
+		            android:orientation="horizontal" >
+		<!--上牌：总收入  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_60"
+		                android:layout_height="wrap_content"
+		                android:text="@string/total_revenue"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" 
+		                android:layout_marginLeft="24dp"/>
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_shangpai_shouru"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="@dimen/dp_size_10"
+		                android:layout_marginStart="@dimen/dp_size_10"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		<!--上牌：渗透率  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_45"
+		                android:layout_height="wrap_content"
+		                android:text="@string/permeability"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" />
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_shangpai_permeability"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginEnd="@dimen/dp_size_10"
+		                android:layout_marginRight="24dp"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		        </LinearLayout>
+		        
+		        
+		        <!--上牌新增 ：总毛利 -->
+		        <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/gross_margin"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_shangpai_maoli"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_shangpai_maolilv"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		          <!--上牌新增 ：总毛利 -->
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		        
+		    </LinearLayout>
+		    
+		    
+		    
+	<!--其他  -->
+		<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_other"
+		            android:text="@string/other" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		                android:gravity="center"
+		            android:orientation="horizontal" >
+		<!--其他：业务收入  -->
+		            <TextView
+		                android:layout_width="@dimen/dp_size_60"
+		                android:layout_height="wrap_content"
+		                android:text="业务收入"
+		                android:textColor="@color/text_average"
+		                android:textSize="@dimen/sp_size_12" 
+		                android:layout_marginLeft="24dp"/>
+		
+		            <TextView
+		                android:id="@+id/fragment_overview_profit_other_shouru"
+		                android:layout_width="@dimen/dp_size_0"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="@dimen/dp_size_10"
+		                android:layout_marginStart="@dimen/dp_size_10"
+		                android:layout_weight="1"
+		                android:textColor="@color/text_people"
+		                android:textSize="@dimen/sp_size_14" />
+		
+		        </LinearLayout>
+		        
+		        
+		        <!--其他新增 ：业务毛利 -->
+		        <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="业务毛利"
+		                    android:layout_marginLeft="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_other_maoli"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/profit_rate"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_other_maolilv"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		            
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+		        
+		    </LinearLayout>  
+		    
+		
+		
+		
+		
+		<!--置换  -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@color/white"
+		        android:gravity="center_vertical"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            style="@style/DrawableTextViewTitleStyle2"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_marginTop="7dp"
+		            android:layout_marginBottom="5dp"
+		            android:drawableLeft="@drawable/overview_zhi_huan"
+		            android:text="@string/trade_in" />
+		        
+		        <View 
+			            android:layout_width="fill_parent"
+	        			android:layout_height="@dimen/dp_size_1"
+	        			android:background="#f9f9f9"/>
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical" >
+		
+		            <LinearLayout
+		                android:layout_width="fill_parent"
+		                android:layout_height="40dp"
+		                android:gravity="center"
+		                android:orientation="horizontal" >
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_60"
+		                    android:layout_height="wrap_content"
+		                    android:text="置换数"
+		                    android:textColor="@color/text_average"
+		                    android:layout_marginLeft="24dp"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_trade_rebate"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="@dimen/dp_size_10"
+		                    android:layout_marginStart="@dimen/dp_size_10"
+		                    android:layout_weight="1"
+		                    android:textColor="@color/text_people"
+		                    android:textSize="@dimen/sp_size_14" />
+		
+		                <TextView
+		                    android:layout_width="@dimen/dp_size_45"
+		                    android:layout_height="wrap_content"
+		                    android:text="置换率"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_12" />
+		
+		                <TextView
+		                    android:id="@+id/fragment_overview_profit_trade_in_permeability"
+		                    android:layout_width="@dimen/dp_size_0"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="1"
+		                    android:layout_marginEnd="@dimen/dp_size_10"
+		                    android:layout_marginRight="24dp"
+		                    android:textColor="@color/text_average"
+		                    android:textSize="@dimen/sp_size_14" />
+		            </LinearLayout>
+		           </LinearLayout>
+		         </LinearLayout>
+		         
+		    <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="10dp"
+		                android:background="#d6d6d6"/>
+    
+    </LinearLayout> 
+    <!-- 最外面的LinearLayout，也就是ScrollView的直接LinearLayout-->
+</ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:background="#d6d6d6" />
+
+</LinearLayout>

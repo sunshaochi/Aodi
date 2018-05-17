@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cdcdcd"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.iris.lshitaskse.view.customsearchview.IconCenterEditText
+                android:id="@+id/search_et_input"
+                style="@style/StyleEditText"
+                android:layout_margin="20dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+   <!--  <com.iris.view.swipeXListView.SwipeMenuListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" /> -->
+    <!--
+    <ListView
+        android:id="@+id/search_lv_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lv_search_tips_bg"
+        android:visibility="gone" >
+    </ListView>
+    -->
+
+</LinearLayout>

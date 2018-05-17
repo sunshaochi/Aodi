@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Apr 04 14:08:39 CST 2018
+0.baseType=DIRECTORY
+0.base=E\:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+0.path=classes.dex
+0.set=DEX
+count=1

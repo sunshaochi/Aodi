@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53.0dip"
+        android:background="@color/number_ren_text"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_cx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_cxup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_chexin"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="车型"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_cxdown"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia" />
+        </LinearLayout>
+
+        <!-- ddddddddddddd -->
+
+        <LinearLayout
+            android:id="@+id/ll_ztsl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_ztslup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_ztsl"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="在途数量"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_ztsldown"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- ddddddddddddd -->
+
+        <LinearLayout
+            android:id="@+id/ll_zksl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_zkslup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_zksl"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="在库数量"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_zksldown"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- ddddddddddddd -->
+
+        <LinearLayout
+            android:id="@+id/ll_kcsl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_kcslup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_kcsl"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="库存数量"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_kcsldown"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- ddddddddddddd -->
+
+        <LinearLayout
+            android:id="@+id/ll_pj"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_pjup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_pj"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="平均库存\n  天数"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_pjdown"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- ddddddddddddd -->
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/plv_pjandzj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:background="#ffd6d6d6" />
+
+    <ListView
+        android:id="@+id/plv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

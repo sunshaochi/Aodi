@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple">#800080</color> <!-- 紫色 -->
+    <color name="infinite_kpi4">#99666666</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#0d70c0</color> <!-- 蓝色 -->
+    <color name="green">#ff669900</color> <!-- 绿色 -->
+    <color name="red">#ffcc0000</color> <!-- 红色 -->
+    <color name="grey">#AAAAAA</color> <!-- 灰色 -->
+    <color name="blue1">#00a0c9</color> <!-- 浅蓝色 -->
+    <color name="background_color">#164166</color> 
+	<color name="title">#014266</color>
+	<color name="text_color">#A4A4A4</color>
+	<color name="title_color">#DDDDDD</color>
+	<color name="stroke_color">#AEAEAE</color>
+	<color name="btn_color">#EEEEEE</color>
+	<color name="text_red">#D1254D</color>
+	<color name="text_grey">#C9C9C9</color>
+	<color name="btn_current_bground">#AAAAAA</color>
+	<color name="btn_bground">#EEEEEE</color>
+	<color name="btn_text">#ADADAD</color>
+	<color name="number_text">#79be0c</color>
+	<color name="number_ren_text">#999999</color>
+	<color name="text_people">#333333</color>
+	<color name="text_average">#666666</color>
+	<color name="bg_linner">#ececec</color>
+	<color name="text_profit">#ff4400</color>
+	<color name="ITask_hint">#BBBBBB</color>
+	<color name="title_back_color">#0d70c0</color>
+	<color name="tab_title">#bb0a30</color>
+	<color name="report_text">#cdcdcd</color>
+	<color name="pager_bg">#EEEEEE</color>
+	<color name="home_rela_bg">#f9f9f9</color>
+	<color name="text_jiedai">#79be0c</color>
+	 <color name="transparent">#00000000</color>
+</resources>

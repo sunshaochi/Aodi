@@ -1,0 +1,256 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="grouplist_item_textview">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <style name="DrawableTextViewTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp_size_10</item>
+        <item name="android:layout_marginRight">@dimen/dp_size_10</item>
+        <item name="android:drawablePadding">@dimen/dp_size_6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textSize">@dimen/sp_size_10</item>
+    </style>
+
+    <style name="DrawableTextViewTitleStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/dp_size_6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textSize">@dimen/sp_size_14</item>
+    </style>
+
+    <style name="LinearLayout_Overview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="InputTextviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_insurance_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textColorHint">@color/text_average</item>
+        <item name="android:textSize">@dimen/sp_size_15</item>
+    </style>
+
+    <style name="StyleEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_search_bar</item>
+        <item name="android:drawablePadding">@dimen/dp_size_5</item>
+        <item name="android:drawableLeft">@drawable/icon_search</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:padding">@dimen/dp_size_5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textSize">@dimen/sp_size_16</item>
+        <item name="android:hint">搜索</item>
+    </style>
+
+    <style name="textStyle0">
+        <item name="android:textSize">@dimen/sp_size_14</item>
+        <item name="android:textColor">@color/text_people</item>
+    </style>
+
+    <style name="textStyle1">
+        <item name="android:textSize">@dimen/sp_size_9</item>
+        <item name="android:textColor">@color/text_average</item>
+    </style>
+
+    <!-- 新增 -->
+    <style name="ProjectTextviewStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_average</item>
+        <item name="android:textSize">@dimen/sp_size_12</item>
+    </style>
+
+    <style name="ProjectLeftNumTextviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textSize">@dimen/sp_size_14</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+
+    <style name="ProjectRightNumTextviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textSize">@dimen/sp_size_14</item>
+    </style>
+
+    <!-- 用于诊断详情界面的样式 -->
+    <style name="LinearLayoutStyle1">
+        <item name="android:layout_width">145dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LinearLayoutStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 类似 接待总数 的TextView -->
+    <style name="DiagTextViewStyle1">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DiagTextViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/text_profit</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="DiagTextViewStyle3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:textColor">@color/number_ren_text</item>
+        <item name="android:textSize">9dp</item>
+    </style>
+
+    <!-- 类似 团队平均 的TextView -->
+    <style name="DiagTextViewStyle4">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/text_average</item>
+        <item name="android:textSize">9dp</item>
+    </style>
+
+    <style name="DiagTextViewStyle5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/text_average</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <!-- 类似新增潜客 -->
+    <style name="DiagnoseTextViewStyle1">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/text_people</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <!-- 首页主布局样式分离界面 -->
+    <style name="ll_sepmian">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- 首页主布局样式分离界面第二部分布局 -->
+    <style name="ll_sepll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 首页主布局样式分离界面第三部分布局 -->
+    <style name="ll_sepsec">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- 极光推送 -->
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+ 
+    
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+    <LinearLayout       
+        android:paddingBottom="10dp"
+        android:background="@drawable/dialog_bg"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:gravity="bottom"
+            android:id="@+id/tv_biaoti"            
+             android:drawablePadding="5dp"
+             android:drawableLeft="@drawable/wenhao"
+             android:paddingTop="15dp"
+             android:textColor="#333333"
+             android:textStyle="bold"
+             android:text="释义"
+             android:paddingLeft="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            />
+        <View
+             android:layout_marginTop="8dp"
+             android:background="@color/red"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="1sp"
+            />
+        <ListView 
+          
+             android:scrollbars="none"
+             android:divider="@null"
+             android:id="@+id/lv"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            ></ListView>
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

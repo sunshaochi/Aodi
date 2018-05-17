@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/home_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="导入记录-销售"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_size_45" >
+
+        <TextView
+            android:id="@+id/fragment_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="经销店"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="@color/number_ren_text"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fragment_report_fine_reposhow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="导入日期"
+            android:textColor="@color/report_text"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/fragment_report_awy_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="销售利润"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="展厅客流"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+        
+        <LinearLayout           
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView                
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="库存"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" />
+
+            <ImageView               
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/fragment_import_record_lv"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="12"
+            android:clickable="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fragment_reort_carlon_lv"
+            android:layout_weight="0.5"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="x代表未导入,√代码已导入"
+                android:textColor="@color/text_average"
+                android:textSize="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

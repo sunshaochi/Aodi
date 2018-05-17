@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_size_300"
+    android:layout_height="@dimen/dp_size_80"
+    android:gravity="center" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_25"
+        android:background="@drawable/table_frame_gray" >
+
+        <TextView
+            android:id="@+id/monitor_bottom_month"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+
+        <TextView
+            android:id="@+id/monitor_bottom_first_week"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="W1"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+
+        <TextView
+            android:id="@+id/monitor_bottom_second_week"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="W2"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+
+        <TextView
+            android:id="@+id/monitor_bottom_third_week"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="W3"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+
+        <TextView
+            android:id="@+id/monitor_bottom_forth_week"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="W4"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+
+        <TextView
+            android:id="@+id/monitor_bottom_fifth_week"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="@dimen/dp_size_25"
+            android:layout_weight="1"
+            android:background="@drawable/table_frame_gray"
+            android:gravity="center"
+            android:text="W5"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_13" />
+    </TableRow>
+
+</TableLayout>

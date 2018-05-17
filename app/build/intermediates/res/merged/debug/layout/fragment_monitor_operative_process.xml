@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/monitor_operative_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/monitor_top_layout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_size_10"
+            android:layout_marginTop="@dimen/dp_size_15"
+            android:text="@string/process_description"
+            android:textColor="@color/text_people"
+            android:textSize="@dimen/sp_size_15"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_40"
+            android:background="@color/number_ren_text"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/process_kpi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_size_13" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/channel_target"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_size_13" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/channel_practical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_size_13" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/channel_achieve_progress"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_size_13" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/monitor_operative_process_listview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_size_210"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:listSelector="#00000000" />
+    </LinearLayout>
+
+   <GridView
+        android:id="@+id/monitor_operative_process_gridview"
+        android:layout_width="@dimen/dp_size_300"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_size_25"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" />
+
+</RelativeLayout>

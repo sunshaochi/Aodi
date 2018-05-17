@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_findfragment_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_40"
+        app:tabIndicatorColor="#ffbb0a30"
+        app:tabSelectedTextColor="@color/tab_title"
+        app:tabTextColor="@color/text_people" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_0.5"
+        android:background="@color/ITask_hint" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="49.0dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_star_time_linner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_report_fine_stardata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="2016-09-10"
+                android:textColor="@+color/text_people"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_starname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="开始日期"
+                android:textColor="@+color/text_people"
+                android:textSize="12.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/iconfont_xiala" />
+
+        <View
+            android:layout_width="@+dimen/dp_size_1"
+            android:layout_height="fill_parent"
+            android:background="#ffd6d6d6" />
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_end_time_linner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_report_fine_enddata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="2016-09-10"
+                android:textColor="@+color/text_people"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/fragment_report_carlon_enddata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5.0dip"
+                android:text="结束日期"
+                android:textColor="@+color/text_people"
+                android:textSize="12.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/iconfont_xiala" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_FindFragment_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+</LinearLayout>

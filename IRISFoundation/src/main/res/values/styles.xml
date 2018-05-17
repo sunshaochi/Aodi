@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <declare-styleable name="CKTitleView">
+        <attr name="leftBtDrawable" format="reference|color" />
+        <attr name="leftBtWidth" format="dimension" />
+        <attr name="leftTvText" format="string" />
+        <attr name="rightBtDrawable" format="reference|color" />
+        <attr name="rightBtWidth" format="dimension" />
+        <attr name="rightTvText" format="string" />
+        <attr name="leftTvColor" format="color" />
+        <attr name="leftTvSize" format="dimension" />
+        <attr name="rightTvColor" format="color" />
+        <attr name="rightTvSize" format="dimension" />
+        <attr name="tvMarginLeft" format="dimension" />
+        <attr name="tvMarginRight" format="dimension" />
+    </declare-styleable>
+    
+     <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+</resources>

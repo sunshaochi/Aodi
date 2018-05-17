@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/overview_top_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 最外面的LinearLayout，也就是ScrollView的直接LinearLayout -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout              
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/overview_new_car"
+                    android:text="@string/new_car" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    
+                <!--  GP1这一行-->    
+                    <LinearLayout
+                        android:id="@+id/ll_gpf"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:orientation="horizontal">
+
+					    <RelativeLayout
+					        android:layout_width="0dp"
+					        android:layout_weight="1"
+					        android:layout_height="40dp"
+					        android:gravity="center_vertical">
+					
+					        <TextView
+					            android:id="@+id/tv1"
+					            android:text="GP1"
+					            style="@style/ProjectTextviewStyle"
+					            />
+
+					        <TextView
+					            android:id="@+id/fragment_overview_profit_gp1"
+					            android:text="345567元"
+					            style="@style/ProjectLeftNumTextviewStyle"/>
+					
+					    </RelativeLayout>
+					
+					    <RelativeLayout
+					        android:layout_width="0dp"
+					        android:layout_height="40dp"
+					        android:layout_weight="1"
+					        android:gravity="center_vertical" >
+					
+					        <TextView
+					            android:id="@+id/tv3"
+					            android:text="GP1%"
+					            style="@style/ProjectTextviewStyle"
+					            />
+					
+					        <TextView
+					            android:id="@+id/fragment_overview_profit_gp1_percent"
+					            android:text="25%"
+					            android:layout_toRightOf="@+id/tv3"
+					            style="@style/ProjectRightNumTextviewStyle"/>
+					    </RelativeLayout>
+					
+					</LinearLayout><!--  GP1这一行 结束--> 
+
+               <View
+                     android:layout_width="fill_parent"
+                     android:layout_height="@dimen/dp_size_1"
+                     android:background="#f9f9f9" />
+               
+		
+		<!--gp2这一行  -->
+                       <LinearLayout
+                            android:id="@+id/ll_gps"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                android:text="GP2"
+					                style="@style/ProjectTextviewStyle"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_gp2"
+					                android:text="45567元"
+					                style="@style/ProjectLeftNumTextviewStyle"/>
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                android:id="@+id/tv23"
+					                android:text="GP2%"
+					                style="@style/ProjectTextviewStyle"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_gp2_percent"
+					                android:text="5%"
+					                android:layout_toRightOf="@+id/tv23"
+					                style="@style/ProjectRightNumTextviewStyle"/>
+					
+					        </RelativeLayout>
+					    </LinearLayout><!--gp2这一行  -->
+
+                  <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="@dimen/dp_size_1"
+                       android:background="#f9f9f9" />
+                  
+		<!--gp3这一行  -->
+                    <LinearLayout
+                        android:id="@+id/ll_gpt"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="GP3"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_gp3"
+					                android:text="45567元"
+					                style="@style/ProjectLeftNumTextviewStyle"/>
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_gp3"
+					                android:text="GP3%"
+					                style="@style/ProjectTextviewStyle"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_gp3_percent"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_gp3"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout><!--gp3这一行  -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#d6d6d6" />
+                    
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 精品 -->
+
+            <LinearLayout
+                android:id="@+id/ll_jp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_jing_pin"
+                    android:text="@string/essence" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    
+	<!--精品总收入这一行  -->
+                    <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/total_revenue"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_total_revenue"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"/>
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_jiazhuang_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/jiazhuang_rate" />
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_gross_margin"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_jiazhuang_rate"
+					                android:text="5%"/>
+					
+					        </RelativeLayout>
+					    </LinearLayout><!--精品总收入这一行  -->
+					    
+					    
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dp_size_1"
+                        android:background="#f9f9f9" />
+
+                    <!--精品总毛利这一行  -->
+                    <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/gross_margin"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_jiazhuang_rate"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"/>
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate" />
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_rate"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_profit_rate"
+					                android:text="5%"/>
+					
+					        </RelativeLayout>
+					    </LinearLayout><!--精品总毛利这一行  -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#d6d6d6" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 车贷 -->
+
+            <LinearLayout
+                android:id="@+id/ll_cd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_car_loan"
+                    android:text="@string/car_loan" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <!-- 车贷：总收入 -->
+                
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/total_revenue"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_procedure_fee"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					                />
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_permeability_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/permeability" />
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_car_loan_permeability"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_permeability_rate"
+					                android:text="5%"/>
+					
+					        </RelativeLayout>
+					    </LinearLayout><!--车贷：总收入这一行  -->
+					    
+					    
+				<View
+                       android:layout_width="fill_parent"
+                       android:layout_height="@dimen/dp_size_1"
+                       android:background="#f9f9f9" />
+					    
+
+                <!-- 车贷新增 ：总毛利 -->
+
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/gross_margin"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_chedai_maoli"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					               />
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_chedai_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_chedai_maolilv"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_chedai_profit_rate"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 车贷新增 ：总毛利 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d6d6" />
+            </LinearLayout>
+            
+            
+
+            <!-- 新保: -->
+
+            <LinearLayout
+                android:id="@+id/ll_xb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_xin_bao"
+                    android:text="@string/new_insurance" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <!-- 新保：总收入 -->
+                
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/total_revenue"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_new_insurance_income"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					               />
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_xinbao_permeability_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/permeability"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_new_insurance_permeability"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_xinbao_permeability_rate"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 新保新增 ：总毛利 -->
+
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/gross_margin"/>
+					
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_xinbao_maoli"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					               />
+					
+					        </RelativeLayout>
+					
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_xinbao_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_xinbao_maolilv"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_xinbao_profit_rate"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 新保新增 ：总毛利 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d6d6" />
+            </LinearLayout>
+
+            <!-- 延保 -->
+
+            <LinearLayout
+                android:id="@+id/ll_yb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_yan_bao"
+                    android:text="@string/extended_warranty" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+<!--延保总收入  -->
+                 <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/total_revenue"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_extendedwarranty_income"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_yanbao_permeability_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/permeability"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_extendedwarranty_permeability"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_yanbao_permeability_rate"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 延保新增 ：总毛利 -->
+
+                 <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/gross_margin"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_yanbao_maoli"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					                android:text="45567元"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_yanbao_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_yanbao_maolilv"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_yanbao_profit_rate"
+					                android:text="5%"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 延保新增 ：总毛利 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d6d6" />
+            </LinearLayout>
+
+            <!-- 上牌 -->
+
+            <LinearLayout
+                android:id="@+id/ll_sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_shang_pai"
+                    android:text="@string/shang_pai" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <!-- 上牌：总收入 -->
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/total_revenue"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_shangpai_shouru"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_shangPai_permeability_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/permeability"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_shangpai_permeability"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_shangPai_permeability_rate"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 上牌新增 ：总毛利 -->
+
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/gross_margin"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_shangpai_maoli"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_shangPai_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_shangpai_maolilv"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_shangPai_profit_rate"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+                <!-- 上牌新增 ：总毛利 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d6d6" />
+            </LinearLayout>
+
+            <!-- 其他 -->
+
+            <LinearLayout
+                android:id="@+id/ll_qt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_other"
+                    android:text="@string/other" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+                
+	<!-- 其他：业务收入 -->
+                
+               <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="业务收入"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_other_shouru"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical"
+					            android:visibility="invisible" >
+					
+					
+					            <TextView
+					                android:id="@+id/tv_other_yincang"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_other_yincang"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_other_yincang"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+
+                <!-- 其他新增 ：业务毛利 -->
+
+                <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="业务毛利"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_other_maoli"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_other_profit_rate"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="@string/profit_rate"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_other_maolilv"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_other_profit_rate"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d6d6" />
+            </LinearLayout>
+
+            <!-- 置换 -->
+
+            <LinearLayout
+                android:id="@+id/ll_zh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/DrawableTextViewTitleStyle2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/overview_zhi_huan"
+                    android:text="@string/trade_in" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp_size_1"
+                    android:background="#f9f9f9" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:orientation="horizontal">
+
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					            <TextView
+					                style="@style/ProjectTextviewStyle"
+					                android:text="置换数"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_trade_rebate"
+					                style="@style/ProjectLeftNumTextviewStyle"
+					               />
+					
+					        </RelativeLayout>
+					
+					        <RelativeLayout
+					            android:layout_width="0dp"
+					            android:layout_weight="1"
+					            android:layout_height="40dp"
+					            android:gravity="center_vertical">
+					
+					
+					            <TextView
+					                android:id="@+id/tv_trade_in_permeability"
+					                style="@style/ProjectTextviewStyle"
+					                android:text="置换率"/>
+					
+					            <TextView
+					                android:id="@+id/fragment_overview_profit_trade_in_permeability"
+					                style="@style/ProjectRightNumTextviewStyle"
+					                android:layout_toRightOf="@+id/tv_trade_in_permeability"
+					                />
+					
+					        </RelativeLayout>
+					    </LinearLayout>
+					    
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#d6d6d6" />
+        </LinearLayout>
+        <!-- 最外面的LinearLayout，也就是ScrollView的直接LinearLayout -->
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:background="#d6d6d6" />
+
+</LinearLayout>

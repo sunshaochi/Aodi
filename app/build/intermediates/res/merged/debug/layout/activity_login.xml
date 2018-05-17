@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/newbg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_size_30"
+        android:layout_marginRight="@dimen/dp_size_30"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit"
+                android:hint="@string/please_user_name"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/dp_size_10"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_user_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login_edit"
+                android:hint="@string/please_user_pwd"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/dp_size_10"
+                android:password="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="登录"
+                android:background="@color/blue"
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/activity_login_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="26dp"
+            android:text="修改密码" />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="26dp"
+        android:id="@+id/tv_phone"
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="技术支持热线:400-728-0250\n时间:周一至周五 9:00-18:30"
+       
+/>
+
+        <TextView
+            android:visibility="gone"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:gravity="right|bottom"
+	        android:layout_marginBottom="10dp"
+	        android:background="@android:color/transparent"
+	        android:text="v2.0"
+        	android:textColor="@color/black1" 
+        	android:paddingRight="5dp"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\current_btn.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\current_btn.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mess_time.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\mess_time.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar_edit_selector.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\search_bar_edit_selector.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_states.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\progress_bar_states.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\funnel_clip.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\funnel_clip.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pickerview_btn.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\AndroidPickerViewmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cell_bg_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_insurance_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\shape_insurance_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mess_kuang.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\mess_kuang.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yyk.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\yyk.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disabled_cell_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\disabled_cell_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\confirm_button_back.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\confirm_button_back.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\current_left.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\current_left.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_butn_toggle2.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\selector_butn_toggle2.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_selector.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\dot_selector.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_back_two.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\checkbox_back_two.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_black_yuan.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\right_black_yuan.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_glbg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\select_glbg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_sybg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\select_sybg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_insurance_gray_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\shape_insurance_gray_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_zdbg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\select_zdbg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border_gray_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_gray_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_jkbg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\select_jkbg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_yuan.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\left_yuan.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_white.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\border_white.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\table_frame_gray.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\table_frame_gray.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\item_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrow.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\right_arrow.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\poppuwind_btn_shape.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\poppuwind_btn_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_my_toast_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\shape_my_toast_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report_butn_toggle.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\report_butn_toggle.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_bbbg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\select_bbbg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_left.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\default_left.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_shape.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\edit_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\current_right.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\current_right.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_yuan.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\right_yuan.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_border_dark.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\red_border_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_red_point.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\design_red_point.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_shape.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\my_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cell_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\cell_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_search_bar.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\bg_search_bar.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_butn_toggle.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\selector_butn_toggle.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_yuan.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\gray_yuan.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\left_arrow.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\disable_cell.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\Caldroidmaster\\build\\intermediates\\bundles\\debug\\res\\drawable\\disable_cell.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\data_layout_shape.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\data_layout_shape.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_black_yuan.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\left_black_yuan.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_right.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\default_right.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_back.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\checkbox_back.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\trport_toggle.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\trport_toggle.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\04895645a46194b9f481d3e80257546f\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_btn.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable\\default_btn.xml"
+    }
+]

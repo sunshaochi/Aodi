@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/fragment_diagno_title_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_shezhi" />
+
+        <TextView
+            android:id="@+id/overview_title_function_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="诊断"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+        
+        <TextView
+            android:id="@+id/overview_title_function_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_centerVertical="true"
+            android:text="筛选"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_size_16" />
+    </RelativeLayout>
+
+    <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/fragment_diagno_lastdata_img"
+            android:layout_width="@dimen/dp_size_40"
+            android:layout_height="@dimen/dp_size_40"
+            android:scaleType="centerInside"
+            android:src="@drawable/iconfont_left" />
+
+        <TextView
+            android:id="@+id/fragment_diagno_stardata_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2016/10"
+            android:textColor="@color/text_people"
+            android:textSize="15.0dip" />
+
+        <ImageView
+            android:id="@+id/fragment_diagno_nextdata_img"
+            android:layout_width="@dimen/dp_size_40"
+            android:layout_height="@dimen/dp_size_40"
+            android:scaleType="centerInside"
+            android:src="@drawable/iconfont_right" />
+    </LinearLayout> -->
+    
+     <!--55555555555555555555  -->
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_49"
+        android:visibility="visible"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_detail_star_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/fragment_detail_adc_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_detail_adc_start_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/start_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_size_1"
+            android:layout_height="fill_parent"
+            android:background="#ffd6d6d6" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_detail_end_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_detail_adc_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_detail_adc_end_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/end_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    
+    <!--55555555555555555555 结束 -->
+    
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:layout_marginTop="@dimen/dp_size_10"
+        android:background="#ffd6d6d6" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fragment_xiaoshou"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center_horizontal"
+            android:text="销售顾问" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="@color/number_ren_text"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        
+        
+        <LinearLayout
+            android:id="@+id/fragment_report_first_column_linner"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_first_column_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+	        <TextView
+	            android:id="@id/fragment_report_fine_reposhow"
+	            android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+	            android:gravity="center"
+	            android:text="销售顾问"
+	            android:textColor="@color/text_people"
+	            android:textSize="10.0dip" />
+	        
+	        <ImageView
+                android:id="@+id/fragment_report_first_column_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia" 
+                android:visibility="visible"/>
+        </LinearLayout>
+        
+	        
+        
+     <!-- 接待总数 -->
+        
+        <LinearLayout
+            android:id="@+id/fragment_report_jiedai_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_jiedai_awy_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_jd"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="接待总数"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_jiedai_awy_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia" 
+                android:visibility="invisible" />
+        </LinearLayout>
+        
+        
+<!-- 新增潜客 -->
+        <LinearLayout
+            android:id="@+id/fragment_report_awy_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_xz"
+                android:layout_width="wrap_content"
+                android:layout_height="25.0dip"
+                android:gravity="center"
+                android:text="新增潜客"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_awy_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/icon_rank_xia" 
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="成交率"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_infiltration_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_infiltration_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <!-- <TextView
+                android:id="@id/fragment_report_fine_extended_infiltration_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="衍生业务平"
+                android:textColor="@color/report_text"
+                android:textSize="10.0dip" /> -->
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_infiltration_text_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="单车GP3"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_infiltration_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_xia"
+                android:visibility="invisible" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_zdkcsl"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_zdkcslup"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_zdkcsl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="库存数量"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_zdkcsldown"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_report_fine_extended_income_linner"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_income_image_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0"
+                android:src="@drawable/icon_rank_shang"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_income_text_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="个人诊断"
+                android:textColor="@color/text_people"
+                android:textSize="10.0dip" />
+
+            <ImageView
+                android:id="@+id/fragment_report_fine_extended_income_image_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_diadeal_linner"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/diadeal_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="团队平均"
+            android:textColor="@color/text_people"
+            android:textSize="12dp" />
+        
+        <TextView
+            android:id="@+id/item_diadeal_name0"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/item_diadeal_name1"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/item_diadeal_name2"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/item_diadeal_name3"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0" />
+        
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_pjzdkcsl"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/item_diadeal_name4"
+            android:layout_width="0.0dip"
+            android:layout_height="20.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/shape_insurance_gray_bg"
+            android:gravity="center"
+            android:text="详细"
+            android:textColor="#ffff0000"
+            android:textSize="11.0dip"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_1"
+        android:background="#ffd6d6d6" />
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/fragment_reort_carlon_lv"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="12"
+            android:clickable="false" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="0.5"
+            android:layout_below="@+id/fragment_reort_carlon_lv"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_report_fine_extended_income_texst_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="3.0dip"
+                android:text="KPI定义说明"
+                android:textColor="@color/number_ren_text"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:text="平均单车综合毛利(GP3)=综合毛利(GP3)/总交车数"
+                android:textColor="@color/number_ren_text"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

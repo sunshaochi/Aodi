@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/overview_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back" />
+
+       <TextView
+            android:id="@+id/home_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="名字"
+            android:textColor="@color/white"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+    <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/fragment_diagno_lastdata_img"
+            android:layout_width="@dimen/dp_size_40"
+            android:layout_height="@dimen/dp_size_40"
+            android:scaleType="centerInside"
+            android:src="@drawable/iconfont_left" />
+
+        <TextView
+            android:id="@+id/fragment_diagno_stardata_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2016/10"
+            android:textColor="@color/text_people"
+            android:textSize="15.0dip" />
+
+        <ImageView
+            android:id="@+id/fragment_diagno_nextdata_img"
+            android:layout_width="@dimen/dp_size_40"
+            android:layout_height="@dimen/dp_size_40"
+            android:scaleType="centerInside"
+            android:src="@drawable/iconfont_right" />
+
+    </LinearLayout> -->
+    
+    <!--55555555555555555555  -->
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_49"
+        android:visibility="visible"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_diagno_star_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/fragment_diagno_adc_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_diagno_adc_start_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/start_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp_size_1"
+            android:layout_height="fill_parent"
+            android:background="#ffd6d6d6" />
+
+        <RelativeLayout
+            android:id="@+id/fragment_diagno_end_adc_rela"
+            android:layout_width="@dimen/dp_size_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_size_10"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_diagno_adc_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_size_5"
+                android:text="2016-09-01"
+                android:textColor="@color/text_people"
+                android:textSize="@dimen/sp_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_diagno_adc_end_time"
+                android:layout_marginBottom="@dimen/dp_size_5"
+                android:text="@string/end_time"
+                android:textColor="@color/text_people" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/iconfont_xiala" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    
+    <!--55555555555555555555 结束 -->
+    
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+  <!-- scrollview的直接子view -->
+  <LinearLayout 
+      	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_linner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+        
+        
+        <!-- 11111111111111111 -->
+        
+		<LinearLayout
+            android:id="@+id/fragment_diadetail_datas_jiedai_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fragment_diadetail_datas_jiedai_linnder_added_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon_qianke" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_jiedai_linner_add_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/jiedai_linner_add_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="接待总数"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/jiedai_linner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="人"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/jiedai_linner_add_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/jiedai_linner_add_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="人"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+        <!-- 1111111111111111111111 -->
+        
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_datas_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fragment_diadetail_datas_linnder_added_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon_qianke" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_linner_add_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_add_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="新增潜客"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_add_right_newspepolnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="人"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_add_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_add_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="人"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+        
+        
+        <!-- 22222222222222222 -->
+        
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_deal_datas_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fragment_diadetail_datas_linnder_deal_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon_deal" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_linner_deal_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_deal_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="成交率"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_deal_right_ratelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="%"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_deal_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_deal_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="%"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+        
+        
+        <!-- 222222222222222222222222222 -->
+        
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_deal_profit_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fragment_diadetail_datas_linnder_profit_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/icon_money" />
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_linner_profit_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_profit_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="交车数"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_profit_right_Profitnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="3dp"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="台"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_profit_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_profit_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="台"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="详情" />
+    </LinearLayout>
+
+    <!-- 詳情 -->
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_gp2_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_gp2_profit_linnder"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/fragment_diadetail_gp2_linnder_profit_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icon_gp2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="新车"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_gp2_linner_profit_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_gp2_linner_profit_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="GP1"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_gp2_right_gpnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="元"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_gp2_linner_profit_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_gp2_linner_profit_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="元"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_diadetail_deal_replacement_linnders"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="26.5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <!-- <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/fragment_diadetail_replacement_linnder_profit_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icon_replacement" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="置换"
+                    android:textSize="11dp" />
+            </LinearLayout> -->
+
+            <LinearLayout
+                android:id="@+id/fragment_diadetail_datas_linner_replacement_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_replacement_right_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="GP3"
+                    android:textColor="@color/text_people"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_replacement_right_replacementnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_profit"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="元"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragment_diadetail_datas_linner_replacement_right_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="团队平均"
+                    android:textColor="@color/text_average"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/fragment_diadetail_datas_linner_replacement_right_averagelnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/text_average"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="元"
+                        android:textColor="@color/number_ren_text"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_Fine_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/fragment_diagdetail_Fine_incl"
+            layout="@layout/diagdetail_list_linner" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_carloan_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/fragment_diagdetail_carloan_incl"
+            layout="@layout/diagdetail_list_linner" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_insurance_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/fragment_diagdetail_insurance_incl"
+            layout="@layout/diagdetail_list_linner" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:id="@+id/fragment_diagdetail_extended_linners"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_linner"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/fragment_diagdetail_extended_incl"
+            layout="@layout/diagdetail_list_linner" />
+    </LinearLayout>
+    
+    
+    <!--增加  -->
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="0.5dp"
+		        android:background="@color/grey" />
+		
+		    <LinearLayout
+		        android:id="@+id/fragment_diagdetail_shangPai_linners"
+		        android:layout_width="match_parent"
+		        android:layout_height="60dp"
+		        android:background="@color/bg_linner"
+		        android:orientation="horizontal" >
+		
+		        <include
+		            android:id="@+id/fragment_diagdetail_shangPai_incl"
+		            layout="@layout/diagdetail_list_linner" />
+		    </LinearLayout>
+		    
+		    
+		    <!-- 置换 -->
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="0.5dp"
+		        android:background="@color/grey" />
+		
+		    <LinearLayout
+		        android:id="@+id/fragment_diagdetail_zhiHuan_linners"
+		        android:layout_width="match_parent"
+		        android:layout_height="60dp"
+		        android:background="@color/bg_linner"
+		        android:orientation="horizontal" >
+		
+		        <include
+		            android:id="@+id/fragment_diagdetail_zhiHuan_incl"
+		            layout="@layout/diagdetail_list_linner" />
+		    </LinearLayout>
+    
+    </LinearLayout>  <!--scrollview的子view结束  -->
+
+</ScrollView>
+
+</LinearLayout>

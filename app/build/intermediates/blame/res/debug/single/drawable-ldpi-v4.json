@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\wheel_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-ldpi\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\wheel_val.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-ldpi\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\layout_bg.xml",
+        "source": "E:\\workspace\\iris\\studio\\cadire1\\app\\src\\main\\res\\drawable-ldpi\\layout_bg.xml"
+    }
+]

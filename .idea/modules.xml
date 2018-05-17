@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidPickerViewmaster/AndroidPickerViewmaster.iml" filepath="$PROJECT_DIR$/AndroidPickerViewmaster/AndroidPickerViewmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Caldroidmaster/Caldroidmaster.iml" filepath="$PROJECT_DIR$/Caldroidmaster/Caldroidmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IRISFoundation/IRISFoundation.iml" filepath="$PROJECT_DIR$/IRISFoundation/IRISFoundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cadire1.iml" filepath="$PROJECT_DIR$/cadire1.iml" />
+    </modules>
+  </component>
+</project>

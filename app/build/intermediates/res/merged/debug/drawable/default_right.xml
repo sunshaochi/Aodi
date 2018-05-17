@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置圆角矩形 -->
+
+    <corners
+        android:bottomRightRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <solid android:color="@color/btn_bground" />
+
+    <size android:height="50dp" />
+
+</shape>

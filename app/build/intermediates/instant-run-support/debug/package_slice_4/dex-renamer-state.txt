@@ -1,0 +1,4 @@
+#Wed Apr 04 13:33:27 CST 2018
+base.0=E\:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

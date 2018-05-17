@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_size_45"
+        android:background="@color/title_back_color" >
+
+        <ImageView
+            android:id="@+id/filter_consultant_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_size_20" />
+
+        <TextView
+            android:id="@+id/filter_consultant_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_size_10"
+            android:padding="@dimen/dp_size_5"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_size_16" />
+    </RelativeLayout>
+    
+   <com.iris.cada.view.ClearEditText
+        android:id="@+id/filter_consultant_filter_edit"
+        android:layout_marginTop="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bar_edit_selector"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="请输入关键字"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_size_20"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/filter_consultant_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/filter_consultant_letter_show"
+            android:layout_width="@dimen/dp_size_80"
+            android:layout_height="@dimen/dp_size_80"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/title_back_color"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.iris.cada.view.SideBar
+            android:id="@+id/filter_consultant_sidrbar"
+            android:layout_width="@dimen/dp_size_30"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/filter_consultant_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_size_40"
+        android:layout_margin="@dimen/dp_size_10"
+        android:background="@drawable/confirm_button_back"
+        android:text="确定"
+        android:textColor="@color/white" />
+
+</LinearLayout>

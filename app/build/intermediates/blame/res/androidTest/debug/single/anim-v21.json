@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "E:\\workspace\\iris\\studio\\cadire1\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\iris\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\a63964d7d26e3e7fb5fe6c12dc1c048b\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]
